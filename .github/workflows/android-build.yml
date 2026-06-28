@@ -31,7 +31,7 @@ jobs:
       run: ./gradlew test --stacktrace
 
     - name: Upload APK artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: success()
       with:
         name: qorith-player-debug
@@ -39,7 +39,7 @@ jobs:
         retention-days: 7
 
     - name: Upload Build Reports
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: always()
       with:
         name: build-reports
