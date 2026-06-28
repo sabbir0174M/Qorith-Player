@@ -239,7 +239,7 @@ fun NowPlayingScreen(
             Box(
                 modifier = Modifier
                     .size(60.dp)
-                    .clip(RoundedCornerShape(50%))
+                    .clip(RoundedCornerShape(50.dp))
                     .background(accentColor)
                     .clickable { viewModel.togglePlayPause() },
                 contentAlignment = Alignment.Center
