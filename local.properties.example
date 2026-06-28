@@ -1,0 +1,7 @@
+# This file is intentionally excluded from version control.
+# Create a local.properties file with these settings for local development:
+#
+# sdk.dir=/path/to/android-sdk
+# ndk.dir=/path/to/android-ndk
+#
+# For GitHub Actions, these values should be configured in CI environment variables.
