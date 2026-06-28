@@ -1,0 +1,5 @@
+-keep class com.qorithone.qorith.** { *; }
+-keepclassmembers class com.qorithone.qorith.** { *; }
+-keep class androidx.media3.** { *; }
+-keep class androidx.compose.** { *; }
+-keep class com.google.dagger.hilt.** { *; }

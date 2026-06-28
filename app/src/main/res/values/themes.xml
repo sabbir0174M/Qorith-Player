@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Qorith" parent="android:Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">@color/blue2</item>
+        <item name="android:colorSecondary">@color/cyan</item>
+        <item name="android:colorBackground">@color/bg_amoled</item>
+    </style>
+</resources>
