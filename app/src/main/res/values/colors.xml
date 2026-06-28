@@ -17,4 +17,5 @@
     <color name="text_light_sub">#6B7385</color>
     <color name="border_light">#E4E8F0</color>
     <color name="pink_accent">#E0517E</color>
+    <color name="launcher_background">#1976E0</color>
 </resources>
